@@ -58,6 +58,16 @@
 
  Por ultimo el metodo teardown_class() finaliza las pruebas cerrando el navegador y detiene el driver.
 
+ ### Conclusión del Proyecto BugBank
+
+En este proyecto, hemos logrado automatizar el registro y acceso de usuarios en la página web BugBank utilizando el patrón Page Object Model (POM). La implementación de Selenium ha sido clave para la automatización de las pruebas, permitiendo la interacción efectiva con la interfaz de usuario.
+
+El proyecto se organiza en tres archivos principales: **Data.py**, que almacena los datos esenciales para las pruebas; **Main.py**, que contiene las clases y métodos necesarios para la automatización, incluyendo la configuración del driver y el manejo de esperas explícitas; y **Test_bug_bank.py**, donde se ejecutan las pruebas de registro y acceso.
+
+Cada clase está diseñada para manejar componentes específicos de la página, lo que facilita el mantenimiento y la expansión futura del proyecto. Las pruebas abarcan todo el proceso, desde la creación de una cuenta hasta el cierre de sesión, garantizando así que las funcionalidades críticas de la web funcionan correctamente.
+
+Finalmente, el uso de métodos como `setup_class` y `teardown_class` asegura que el entorno de prueba se inicialice y cierre adecuadamente, lo que mejora la eficiencia del proceso de automatización. Este proyecto no solo proporciona una base sólida para pruebas futuras, sino que también demuestra la efectividad del uso de Selenium y POM en la automatización de pruebas de software.
+
 
 ## Muchas gracias!!!
 ### Georgina Khamisso
